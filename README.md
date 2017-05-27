@@ -1,8 +1,11 @@
 # boilerplate golang app for unit tests
 
 ### run
-go build && go run test.go
+go run test.go
 
 ### test
-go build && go test
+go test
+
+### compile
+go build -o {executableFilename}
 
